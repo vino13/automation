@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/automation.jat automtion.jar
+COPY target/automation.jar automation.jar
 CMD [ "java","-jar","automation.jar" ]
